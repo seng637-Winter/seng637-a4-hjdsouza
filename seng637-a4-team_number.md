@@ -25,25 +25,25 @@
 
 # Explain your SELENUIM test case design process
 6. Update Quantity in Cart
-   Objective: Ensure that the user can update the quantity of an item in the cart and that the cart updates correctly.
-   Steps: Add an item to the cart, navigate to the cart, update the quantity of the item, and confirm the update.
-   Expected Result: The quantity of the item updates correctly, and the cart reflects the new quantity and total price.
+      Objective: Ensure that the user can update the quantity of an item in the cart and that the cart updates correctly.
+      Steps: Add an item to the cart, navigate to the cart, update the quantity of the item, and confirm the update.
+      Expected Result: The quantity of the item updates correctly, and the cart reflects the new quantity and total price.
 7. Switch Lanuage from English to French
-   Objective: Ensure that the website correctly switches the interface language from English to French upon user selection
-   Steps: Find the lanuage seletion option and select "French" from the available options
-   Expected Result: The website content, like navigation menus switches to French
+      Objective: Ensure that the website correctly switches the interface language from English to French upon user selection
+      Steps: Find the lanuage seletion option and select "French" from the available options
+      Expected Result: The website content, like navigation menus switches to French
 8. Change store location 
-    Objective: Ensure that users can successfully change their default store location on the website.
-    Steps: Navigate to the store selection area, select a new store, confirm the selection and then verify the change.
-    Expected Result: Verify that the display name of the store (often found at the top of the webpage or within the store selection area) updates to reflect the newly selected store.
+       Objective: Ensure that users can successfully change their default store location on the website.
+       Steps: Navigate to the store selection area, select a new store, confirm the selection and then verify the change.
+       Expected Result: Verify that the display name of the store (often found at the top of the webpage or within the store selection area) updates to reflect the newly selected store.
 9. Navigate to a Specific Department
-  Objective: Ensure the user can navigate to a specific department from the homepage.
-  Steps: From the homepage, click on a department category (e.g., "Appliances").
-  Expected Result: The website redirects to the selected department page showing relevant products and categories.
+     Objective: Ensure the user can navigate to a specific department from the homepage.
+     Steps: From the homepage, click on a department category (e.g., "Appliances").
+     Expected Result: The website redirects to the selected department page showing relevant products and categories.
 10. Use the Site Search with a Blank Query
-  Objective: Ensure the search functionality handles blank queries gracefully.
-  Steps: Go to the search bar, enter nothing (leave it blank), and press enter or click the search icon.
-  Expected Result: The website either prompts the user to enter a search term or displays a message indicating no search term was entered.
+     Objective: Ensure the search functionality handles blank queries gracefully.
+     Steps: Go to the search bar, enter nothing (leave it blank), and press enter or click the search icon.
+     Expected Result: The website either prompts the user to enter a search term or displays a message indicating no search term was entered.
 # Explain the use of assertions and checkpoints
 ## For the "Update Quantity in Cart" objective
 1. Verify Item Quantity Updates for 
