@@ -48,7 +48,9 @@
 # Explain the use of assertions and checkpoints
 ## For the "Update Quantity in Cart" objective
 1. Verify Item Quantity Updates for 
-   After updating the quantity of an item in the cart, assert that the displayed quantity matches the new amount. This verifies that the input for quantity change is correctly processed and displayed.
+   After updating the quantity of an item in the cart, assert that the displayed quantity matches the new amount. This verifies that the input for quantity change is correctly processed and displayed. "Wait for text" was used as the assertion command
+2. Check for Correct Cart State
+   After updating the quantity of an item in the cart, assert that the displayed quantity of the amount of items in the cart refelct correctly. This verifies that the input for quantity change is correctly processed and displayed. "Wait for text" was used as the assertion command
    
 # how did you test each functionaity with different test data
 
