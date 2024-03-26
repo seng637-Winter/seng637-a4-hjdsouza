@@ -61,9 +61,11 @@
 ## Changing the default store location
 1. Store Name Update: Verify the display name of the store is the newly selected store using 'assert text'
 2. Selection is consistent across sessions/pages: Verify that if you navigate to different pages or refreshing the pages keeps the new store selection. This would use 'assert text'
-   
-   
-   
+
+## Navigating to a specfic department
+1. Validate Specfic department name
+   Once the page has been changed to a new department use 'assert text' to check if the name has been updated correctly. 
+
 # how did you test each functionaity with different test data
 
 # How the team work/effort was divided and managed
