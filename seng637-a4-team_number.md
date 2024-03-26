@@ -46,7 +46,10 @@
   Steps: Go to the search bar, enter nothing (leave it blank), and press enter or click the search icon.
   Expected Result: The website either prompts the user to enter a search term or displays a message indicating no search term was entered.
 # Explain the use of assertions and checkpoints
-
+## For the "Update Quantity in Cart" objective
+1. Verify Item Quantity Updates for 
+   After updating the quantity of an item in the cart, assert that the displayed quantity matches the new amount. This verifies that the input for quantity change is correctly processed and displayed.
+   
 # how did you test each functionaity with different test data
 
 # How the team work/effort was divided and managed
