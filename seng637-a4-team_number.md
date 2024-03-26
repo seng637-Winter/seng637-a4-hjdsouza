@@ -55,14 +55,14 @@
    After changing from English to french verify if the main page title changes once you click any department. The command used was "assert text"
 2. Validate English option is available
    After French is selection, a user should have the option to switch back to English right away. The command used was "assert text"
-## Use site search with a blank query objective
+## For the "Use site search with a blank query objective"
 1. Check if the Front page title changes
    With the home depot website, if a blank query is sent no change happens. So we used an "assert text" to see if any changes were made on the front made
-## Changing the default store location
+## For the "Changing the default store location"
 1. Store Name Update: Verify the display name of the store is the newly selected store using 'assert text'
 2. Selection is consistent across sessions/pages: Verify that if you navigate to different pages or refreshing the pages keeps the new store selection. This would use 'assert text'
 
-## Navigating to a specfic department
+## For the "Navigating to a specfic department"
 1. Validate Specfic department name
    Once the page has been changed to a new department use 'assert text' to check if the name has been updated correctly. 
 
