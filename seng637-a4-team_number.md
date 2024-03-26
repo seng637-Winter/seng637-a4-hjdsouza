@@ -48,9 +48,15 @@
 # Explain the use of assertions and checkpoints
 ## For the "Update Quantity in Cart" objective
 1. Verify Item Quantity Updates for 
-   After updating the quantity of an item in the cart, assert that the displayed quantity matches the new amount. This verifies that the input for quantity change is correctly processed and displayed. "Wait for text" was used as the assertion command
+   After updating the quantity of an item in the cart, assert that the displayed quantity matches the new amount. This verifies that the input for quantity change is correctly processed and displayed. "assert text" was used as the assertion command
 2. Check for Correct Cart State
-   After updating the quantity of an item in the cart, assert that the displayed quantity of the amount of items in the cart refelct correctly. This verifies that the input for quantity change is correctly processed and displayed. "Wait for text" was used as the assertion command
+   After updating the quantity of an item in the cart, assert that the displayed quantity of the amount of items in the cart refelct correctly. This verifies that the input for quantity change is correctly processed and displayed. "assert text" was used as the assertion command
+## For the "Switch Lanuage from English to French" objective
+1. Check Navigation Menu Text
+   After changing from English to french verify if the main page title changes once you click any department. The command used was "assert text"
+2. Validate English option is available
+   After French is selection, a user should have the option to switch back to English right away. The command used was "assert text"
+   
    
 # how did you test each functionaity with different test data
 
