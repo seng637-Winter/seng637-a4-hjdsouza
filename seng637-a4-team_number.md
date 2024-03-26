@@ -67,6 +67,28 @@
    Once the page has been changed to a new department use 'assert text' to check if the name has been updated correctly. 
 
 # how did you test each functionaity with different test data
+1. Update Quantity in Cart
+For this test case, we played with different quanitites to update the cart with such as 3 and to see if this was correctly being reflected.
+2. Switch Language from English to French
+Here, the variation in test data could involve switching to different languages supported by the website, not just French. So instead of French we pick Spanish and verified that the change was succesful 
+
+Data Variations: Different languages the website supports, such as French, Spanish, and English.
+Implementing Data-Driven Testing: Loop through the language options, selecting each one, and verify the UI changes accordingly. Use the select command to change the language and assert text to verify that the language switch was successful.
+3. Change Store Location
+This functionality can be tested with different store locations to ensure the application correctly updates the store information and related inventory or prices.
+
+Data Variations: Different store locations, ideally covering a diverse geographical range.
+Implementing Data-Driven Testing: Automate the process of selecting each store location from your test data set and verify the expected outcomes using assert commands. Use the click and type commands to navigate the store selection and input different locations.
+4. Navigate to a Specific Department
+Testing navigation to different departments ensures that all sections of the website are accessible and load correctly.
+
+Data Variations: Different department names or categories available on the website.
+Implementing Data-Driven Testing: Create a loop or series of tests that navigate to each department using the department names as inputs. Verify each navigation with assert commands that check you've landed on the correct page.
+5. Use the Site Search with a Blank Query
+This test checks how the site handles blank searches, but you can extend it to handle searches for various valid and invalid search terms.
+
+Data Variations: A blank query, valid search terms, invalid search terms, and special characters.
+Implementing Data-Driven Testing: Automate the submission of these different search queries and use assert commands to verify the appropriate response for each (e.g., results for valid terms, no results or suggestions for invalid ones).
 
 # How the team work/effort was divided and managed
 
