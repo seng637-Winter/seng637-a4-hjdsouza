@@ -74,21 +74,17 @@ For this test case, we played with different quanitites to update the cart with 
 Here, the variation in test data could involve switching to different languages supported by the website, not just French. So instead of French we could have pickd Spanish, Arabic etc however HomeDepot website did not support other lanuages. 
 
 3. Change Store Location
-This functionality can be tested with different store locations to ensure the application correctly updates the store information and related inventory or prices.
+The test case aimed at verifying the "Change Store Location" functionality encountered challenges that led to its incompletion, primarily revolving around the dynamic nature of content changes upon selecting different store locations.
 
 4. Navigate to a Specific Department
 Testing navigation to different departments ensures that all sections of the website are accessible and load correctly.
 
-Data Variations: Different department names or categories available on the website.
-Implementing Data-Driven Testing: Create a loop or series of tests that navigate to each department using the department names as inputs. Verify each navigation with assert commands that check you've landed on the correct page.
 5. Use the Site Search with a Blank Query
-This test checks how the site handles blank searches, but you can extend it to handle searches for various valid and invalid search terms.
-
-Data Variations: A blank query, valid search terms, invalid search terms, and special characters.
-Implementing Data-Driven Testing: Automate the submission of these different search queries and use assert commands to verify the appropriate response for each (e.g., results for valid terms, no results or suggestions for invalid ones).
+Another good test would be valid search term or invalid search terms or special characters. The test was not completed as dynamic id's was used for the search box. Some web applications generate dynamic IDs for their elements. A dynamic ID changes every time the page is loaded, which means hardcoding the ID in your test will lead to inconsistencies and failures.
 
 # How the team work/effort was divided and managed
 
 # Difficulties encountered, challenges overcome, and lessons learned
-
+Dynamic Content Handling: One of the significant challenges was dealing with dynamic content changes, such as inventory updates or location-specific information, which required adaptive testing strategies.
+Element Locators Stability: Finding stable element locators was challenging, especially when dealing with dynamic IDs and classes that change with each session or are affected by the page's state.
 # Comments/feedback on the assignment itself
