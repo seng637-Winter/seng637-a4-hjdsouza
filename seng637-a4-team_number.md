@@ -32,11 +32,10 @@
    Objective: Ensure that the website correctly switches the interface language from English to French upon user selection
    Steps: Find the lanuage seletion option and select "French" from the available options
    Expected Result: The website content, like navigation menus switches to French
-8. Search Invalid Item
-    Objective: To test website's response when searching for an item that does not exist or is misspelled
-    Steps: Enter an invalid or random search term in the search bar and initiate the search.
-    Expected Result: The website displays a message indicating that no results were found or suggests corrections/spell check features
-    
+8. Change store location 
+    Objective: Ensure that users can successfully change their default store location on the website.
+    Steps: Navigate to the store selection area, select a new store, confirm the selection and then verify the change.
+    Expected Result: Verify that the display name of the store (often found at the top of the webpage or within the store selection area) updates to reflect the newly selected store.
 9. Navigate to a Specific Department
   Objective: Ensure the user can navigate to a specific department from the homepage.
   Steps: From the homepage, click on a department category (e.g., "Appliances").
@@ -56,6 +55,13 @@
    After changing from English to french verify if the main page title changes once you click any department. The command used was "assert text"
 2. Validate English option is available
    After French is selection, a user should have the option to switch back to English right away. The command used was "assert text"
+## Use site search with a blank query objective
+1. Check if the Front page title changes
+   With the home depot website, if a blank query is sent no change happens. So we used an "assert text" to see if any changes were made on the front made
+## Changing the default store location
+1. Store Name Update: Verify the display name of the store is the newly selected store using 'assert text'
+2. Selection is consistent across sessions/pages: Verify that if you navigate to different pages or refreshing the pages keeps the new store selection. This would use 'assert text'
+   
    
    
 # how did you test each functionaity with different test data
